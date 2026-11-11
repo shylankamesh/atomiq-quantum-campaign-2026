@@ -26,7 +26,7 @@ Audit date: 11 November 2026. Authorities: four-page official problem statement,
 | Error propagation and uncertainty | sensitivity_analysis.json | 200 rerank/reselect perturbations; Wilson interval | Selection instability and conditional shot uncertainty disclosed | PASS; sensitivity is not a confidence bound |
 | Logical/physical counts and transpilation | circuit metrics JSON files | u/cx synthesis | QAOA logical depth 44, basis depth 6144; simulation identity layout | PASS |
 | Exact dependencies and seeds | requirements*, run_manifest.json | pip check; recorded versions | No broken requirements; actual seeds recorded | PASS |
-| Working tests | docs/TEST_RESULTS.txt | python -m pytest -q | 44 passed, 0 failed, 0 skipped | PASS |
+| Working tests | docs/TEST_RESULTS.txt | python -m pytest -q | 44 passed locally and in clean public clone; native-loader/temp-path failures disclosed | PASS |
 | Independent tamper detection | test_verifier_tampering.py | changed objectives/probabilities/count metrics/flags | Invalid bundles rejected without relying on hashes | PASS |
 | Root-level results | three mandatory root files | verify_submission.py | PASS official-data mode | PASS |
 | Technical report/business interpretation | README.md, FINAL_EXPERIMENT_REPORT.md | factual cross-check against JSON | Modest classifier quality, ties and 2.4% modeled success disclosed | PASS |
@@ -42,3 +42,5 @@ Audit date: 11 November 2026. Authorities: four-page official problem statement,
 The selected QSVC has pooled OOF average precision 0.162837 and ROC-AUC 0.549057. The final four selected categorical indicators map 86 test rows to the top tied probability. The official tie rule is followed exactly. No claim of strong real-world discrimination, quantum advantage, hardware execution or overall competition readiness is justified by this alone. The main oracle is general diagonal, and its basis-gate depth is expensive. Stage 3 assumes independent outcomes and uses synthetic readout noise with known correction matrix.
 
 No mandatory scientific execution remains unverified. Account-level eligibility and the final Devpost submission remain outside the local technical checks.
+
+Clean checkout verification and environment recovery: docs/CLEAN_CHECKOUT_VERIFICATION.md.
