@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+*.log
+example/demo_outputs/
+# Do not accidentally publish private organizer datasets or synthetic output as official.
+data/*
+!data/README.md
+
+*.joblib
+DEVPOST_PRIVATE_DETAILS.md

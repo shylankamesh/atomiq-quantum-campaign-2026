@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "mode": "REAL-INPUT DATA",
+  "engine": "qiskit",
+  "stage1_rows": 100,
+  "stage2_selected": [
+    "C0005",
+    "C0007",
+    "C0009",
+    "C0020",
+    "C0022",
+    "C0036"
+  ],
+  "stage3_probability": 0.022796630859375,
+  "stage3_exact": 0.024049297459310358,
+  "verified_constraints": true,
+  "verified_customer_traceability": true
+}

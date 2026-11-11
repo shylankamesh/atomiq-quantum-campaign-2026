@@ -1,0 +1,9 @@
+{
+  "input_sha256": "d2f8e63705af2883c7618c463a6ac2f351119d59a8869d2677f8825148e9a709",
+  "output_sha256": {
+    "stage1_predictions.csv": "8771a7c230d14c65be06b9daed5db0efb9a3de7c38ae75eda333659bf1647d91",
+    "stage2_selection.json": "e4b90fac213c0e8cd2f5183fced5742854394538d4d92343024e5040280d0c98",
+    "stage3_simulation.json": "d24a539c7478e73c40674a503f3a86b59fae6fd55c11e39305dea951a558fa73",
+    "stage1_validation.json": "71872a8dbf0b77c09acb26e438296c68c07f8b2ef1231d4dcfe261f364ca67e5"
+  }
+}

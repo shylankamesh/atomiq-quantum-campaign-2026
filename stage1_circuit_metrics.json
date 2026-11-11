@@ -1,0 +1,26 @@
+{
+  "basis_gates": [
+    "u",
+    "cx"
+  ],
+  "basis_transpiled_depth": 11,
+  "basis_gate_counts": {
+    "u": 11,
+    "cx": 6
+  },
+  "one_qubit_gate_count": 11,
+  "two_qubit_gate_count": 6,
+  "swap_count": 0,
+  "logical_to_simulator_qubits": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "physical_layout_note": "Unconstrained simulator topology; no hardware device placement",
+  "logical_qubits": 4,
+  "logical_depth": 5,
+  "fidelity_shots": 1024,
+  "sampler": "Qiskit StatevectorSampler",
+  "seed": 42
+}

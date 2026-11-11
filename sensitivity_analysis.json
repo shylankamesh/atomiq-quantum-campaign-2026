@@ -1,0 +1,2614 @@
+{
+  "seed": 8042,
+  "trials": 200,
+  "perturbation": "Independent N(0,0.01^2) probability perturbations clipped to [0,1]; rerank all 100, reselect six",
+  "scope": "Illustrative sensitivity only, NOT bootstrap confidence intervals or calibrated prediction uncertainty",
+  "unchanged_selection_fraction": 0.0,
+  "mean_selection_overlap": 0.67,
+  "tail_probability_range": [
+    0.030790192646874708,
+    0.04063621780228698
+  ],
+  "results": [
+    {
+      "selected_ids": [
+        "C0059",
+        "C0183",
+        "C0022",
+        "C0182",
+        "C0111",
+        "C0009"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 9.250258943660455,
+      "tail_probability": 0.035034060463598034
+    },
+    {
+      "selected_ids": [
+        "C0076",
+        "C0097",
+        "C0283",
+        "C0091",
+        "C0384",
+        "C0036"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 6.992784274769377,
+      "tail_probability": 0.03458665453425569
+    },
+    {
+      "selected_ids": [
+        "C0111",
+        "C0168",
+        "C0250",
+        "C0256",
+        "C0381",
+        "C0007"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 12.081874210592112,
+      "tail_probability": 0.034064913035609344
+    },
+    {
+      "selected_ids": [
+        "C0087",
+        "C0022",
+        "C0036",
+        "C0076",
+        "C0318",
+        "C0139"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 5.843667356796654,
+      "tail_probability": 0.03506389365882844
+    },
+    {
+      "selected_ids": [
+        "C0253",
+        "C0020",
+        "C0226",
+        "C0397",
+        "C0322",
+        "C0279"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.835067909685938,
+      "tail_probability": 0.03624018124685496
+    },
+    {
+      "selected_ids": [
+        "C0341",
+        "C0168",
+        "C0231",
+        "C0097",
+        "C0397",
+        "C0205"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.403952093163097,
+      "tail_probability": 0.03344570334992592
+    },
+    {
+      "selected_ids": [
+        "C0212",
+        "C0111",
+        "C0316",
+        "C0381",
+        "C0197",
+        "C0183"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.721202886380446,
+      "tail_probability": 0.03357539050241111
+    },
+    {
+      "selected_ids": [
+        "C0197",
+        "C0384",
+        "C0139",
+        "C0182",
+        "C0009",
+        "C0020"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 9.000196487433918,
+      "tail_probability": 0.03433844798076288
+    },
+    {
+      "selected_ids": [
+        "C0258",
+        "C0053",
+        "C0111",
+        "C0205",
+        "C0182",
+        "C0279"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.868343889043015,
+      "tail_probability": 0.03412448170545852
+    },
+    {
+      "selected_ids": [
+        "C0099",
+        "C0253",
+        "C0139",
+        "C0009",
+        "C0256",
+        "C0397"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.741292588570287,
+      "tail_probability": 0.035482092246177314
+    },
+    {
+      "selected_ids": [
+        "C0097",
+        "C0279",
+        "C0277",
+        "C0182",
+        "C0111",
+        "C0384"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.097501488302024,
+      "tail_probability": 0.03428811101223491
+    },
+    {
+      "selected_ids": [
+        "C0197",
+        "C0147",
+        "C0258",
+        "C0091",
+        "C0007",
+        "C0022"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 9.305786568363724,
+      "tail_probability": 0.03231070198510883
+    },
+    {
+      "selected_ids": [
+        "C0313",
+        "C0238",
+        "C0005",
+        "C0183",
+        "C0059",
+        "C0111"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 5.610563391094418,
+      "tail_probability": 0.033484281975402895
+    },
+    {
+      "selected_ids": [
+        "C0397",
+        "C0349",
+        "C0258",
+        "C0313",
+        "C0205",
+        "C0384"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 11.016911432299201,
+      "tail_probability": 0.03322688340818565
+    },
+    {
+      "selected_ids": [
+        "C0384",
+        "C0112",
+        "C0022",
+        "C0091",
+        "C0210",
+        "C0327"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 5.745012119322132,
+      "tail_probability": 0.03592121239812554
+    },
+    {
+      "selected_ids": [
+        "C0349",
+        "C0397",
+        "C0399",
+        "C0059",
+        "C0372",
+        "C0338"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.359053210423712,
+      "tail_probability": 0.03389606976969948
+    },
+    {
+      "selected_ids": [
+        "C0313",
+        "C0231",
+        "C0258",
+        "C0111",
+        "C0139",
+        "C0059"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.433768414569794,
+      "tail_probability": 0.03420154499502099
+    },
+    {
+      "selected_ids": [
+        "C0205",
+        "C0020",
+        "C0283",
+        "C0007",
+        "C0388",
+        "C0059"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 5.101869790738633,
+      "tail_probability": 0.03507080837814249
+    },
+    {
+      "selected_ids": [
+        "C0022",
+        "C0256",
+        "C0065",
+        "C0226",
+        "C0097",
+        "C0318"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 3.764741188632467,
+      "tail_probability": 0.034947150431972676
+    },
+    {
+      "selected_ids": [
+        "C0238",
+        "C0182",
+        "C0229",
+        "C0091",
+        "C0202",
+        "C0277"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.061775509129402,
+      "tail_probability": 0.03477909976465827
+    },
+    {
+      "selected_ids": [
+        "C0182",
+        "C0170",
+        "C0250",
+        "C0339",
+        "C0381",
+        "C0111"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 14.123267155324903,
+      "tail_probability": 0.0332810337153179
+    },
+    {
+      "selected_ids": [
+        "C0339",
+        "C0277",
+        "C0091",
+        "C0253",
+        "C0170",
+        "C0139"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.311988165150517,
+      "tail_probability": 0.034495911337632405
+    },
+    {
+      "selected_ids": [
+        "C0053",
+        "C0326",
+        "C0009",
+        "C0226",
+        "C0163",
+        "C0258"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.718545288769896,
+      "tail_probability": 0.03489473051146
+    },
+    {
+      "selected_ids": [
+        "C0036",
+        "C0381",
+        "C0313",
+        "C0099",
+        "C0322",
+        "C0283"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.535680122892511,
+      "tail_probability": 0.03424987377474276
+    },
+    {
+      "selected_ids": [
+        "C0318",
+        "C0212",
+        "C0387",
+        "C0147",
+        "C0170",
+        "C0384"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 4.38384999810943,
+      "tail_probability": 0.03364928941758344
+    },
+    {
+      "selected_ids": [
+        "C0168",
+        "C0258",
+        "C0087",
+        "C0097",
+        "C0231",
+        "C0053"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.581507476908822,
+      "tail_probability": 0.033174392330171006
+    },
+    {
+      "selected_ids": [
+        "C0231",
+        "C0271",
+        "C0338",
+        "C0091",
+        "C0068",
+        "C0059"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.347616782444037,
+      "tail_probability": 0.034407239721552754
+    },
+    {
+      "selected_ids": [
+        "C0009",
+        "C0091",
+        "C0250",
+        "C0327",
+        "C0397",
+        "C0339"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 14.926594686862739,
+      "tail_probability": 0.03322755946428454
+    },
+    {
+      "selected_ids": [
+        "C0397",
+        "C0087",
+        "C0349",
+        "C0231",
+        "C0279",
+        "C0111"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.948234575489625,
+      "tail_probability": 0.03472598015683663
+    },
+    {
+      "selected_ids": [
+        "C0316",
+        "C0091",
+        "C0076",
+        "C0163",
+        "C0258",
+        "C0253"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.05609786155436,
+      "tail_probability": 0.035081018220647485
+    },
+    {
+      "selected_ids": [
+        "C0277",
+        "C0099",
+        "C0339",
+        "C0087",
+        "C0397",
+        "C0372"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.913739617692013,
+      "tail_probability": 0.035273802869612514
+    },
+    {
+      "selected_ids": [
+        "C0093",
+        "C0277",
+        "C0229",
+        "C0258",
+        "C0097",
+        "C0381"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.566661685511976,
+      "tail_probability": 0.03648210175941004
+    },
+    {
+      "selected_ids": [
+        "C0226",
+        "C0397",
+        "C0238",
+        "C0349",
+        "C0099",
+        "C0258"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.615612597527786,
+      "tail_probability": 0.03425750578801227
+    },
+    {
+      "selected_ids": [
+        "C0087",
+        "C0252",
+        "C0349",
+        "C0088",
+        "C0277",
+        "C0250"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.531765917797623,
+      "tail_probability": 0.034606563062660016
+    },
+    {
+      "selected_ids": [
+        "C0316",
+        "C0182",
+        "C0397",
+        "C0139",
+        "C0271",
+        "C0099"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.324928021621801,
+      "tail_probability": 0.036021193065934994
+    },
+    {
+      "selected_ids": [
+        "C0318",
+        "C0036",
+        "C0279",
+        "C0009",
+        "C0326",
+        "C0059"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 6.9689169447980435,
+      "tail_probability": 0.03570558545999827
+    },
+    {
+      "selected_ids": [
+        "C0372",
+        "C0022",
+        "C0111",
+        "C0338",
+        "C0253",
+        "C0009"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 8.982198499741981,
+      "tail_probability": 0.036320461484859526
+    },
+    {
+      "selected_ids": [
+        "C0372",
+        "C0139",
+        "C0279",
+        "C0397",
+        "C0271",
+        "C0053"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.224743408183746,
+      "tail_probability": 0.033104533787164284
+    },
+    {
+      "selected_ids": [
+        "C0387",
+        "C0289",
+        "C0139",
+        "C0272",
+        "C0076",
+        "C0088"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.49759058814597,
+      "tail_probability": 0.03437673014688769
+    },
+    {
+      "selected_ids": [
+        "C0197",
+        "C0020",
+        "C0036",
+        "C0372",
+        "C0168",
+        "C0009"
+      ],
+      "overlap_with_final": 3,
+      "expected_net_value": 7.815204344289667,
+      "tail_probability": 0.035155414567173505
+    },
+    {
+      "selected_ids": [
+        "C0252",
+        "C0283",
+        "C0349",
+        "C0007",
+        "C0147",
+        "C0111"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.227527112358544,
+      "tail_probability": 0.03666704080259013
+    },
+    {
+      "selected_ids": [
+        "C0163",
+        "C0258",
+        "C0256",
+        "C0111",
+        "C0068",
+        "C0279"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.066560590633296,
+      "tail_probability": 0.035942818232741466
+    },
+    {
+      "selected_ids": [
+        "C0327",
+        "C0020",
+        "C0087",
+        "C0322",
+        "C0163",
+        "C0231"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.294985971079939,
+      "tail_probability": 0.03286229449939999
+    },
+    {
+      "selected_ids": [
+        "C0312",
+        "C0036",
+        "C0182",
+        "C0399",
+        "C0339",
+        "C0397"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 8.860528503848224,
+      "tail_probability": 0.03417561927707918
+    },
+    {
+      "selected_ids": [
+        "C0182",
+        "C0183",
+        "C0381",
+        "C0222",
+        "C0147",
+        "C0253"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.896926054909828,
+      "tail_probability": 0.03539143548800271
+    },
+    {
+      "selected_ids": [
+        "C0258",
+        "C0381",
+        "C0205",
+        "C0397",
+        "C0271",
+        "C0009"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 14.490761366620575,
+      "tail_probability": 0.03520914631533763
+    },
+    {
+      "selected_ids": [
+        "C0022",
+        "C0036",
+        "C0384",
+        "C0253",
+        "C0097",
+        "C0271"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 6.602265705737378,
+      "tail_probability": 0.03255341031240094
+    },
+    {
+      "selected_ids": [
+        "C0005",
+        "C0322",
+        "C0028",
+        "C0170",
+        "C0068",
+        "C0258"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 8.91599513779383,
+      "tail_probability": 0.036784662154798566
+    },
+    {
+      "selected_ids": [
+        "C0028",
+        "C0327",
+        "C0210",
+        "C0009",
+        "C0316",
+        "C0147"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 6.976770429201084,
+      "tail_probability": 0.03532627512570913
+    },
+    {
+      "selected_ids": [
+        "C0065",
+        "C0384",
+        "C0009",
+        "C0322",
+        "C0222",
+        "C0372"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.819179984421561,
+      "tail_probability": 0.03483878092420934
+    },
+    {
+      "selected_ids": [
+        "C0387",
+        "C0338",
+        "C0279",
+        "C0381",
+        "C0068",
+        "C0238"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.1291560696699845,
+      "tail_probability": 0.03649774859109165
+    },
+    {
+      "selected_ids": [
+        "C0252",
+        "C0097",
+        "C0068",
+        "C0222",
+        "C0022",
+        "C0009"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 8.232223119299952,
+      "tail_probability": 0.03537705975361804
+    },
+    {
+      "selected_ids": [
+        "C0222",
+        "C0381",
+        "C0349",
+        "C0076",
+        "C0088",
+        "C0277"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.319932128226021,
+      "tail_probability": 0.03485182800300399
+    },
+    {
+      "selected_ids": [
+        "C0327",
+        "C0272",
+        "C0059",
+        "C0134",
+        "C0322",
+        "C0087"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.289507297122881,
+      "tail_probability": 0.03320417268649336
+    },
+    {
+      "selected_ids": [
+        "C0327",
+        "C0252",
+        "C0170",
+        "C0097",
+        "C0163",
+        "C0212"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.728687554393245,
+      "tail_probability": 0.03402235435169848
+    },
+    {
+      "selected_ids": [
+        "C0088",
+        "C0022",
+        "C0007",
+        "C0252",
+        "C0279",
+        "C0076"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 8.005852476168885,
+      "tail_probability": 0.03274626519860811
+    },
+    {
+      "selected_ids": [
+        "C0039",
+        "C0231",
+        "C0253",
+        "C0381",
+        "C0341",
+        "C0111"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.115897265907039,
+      "tail_probability": 0.03813856269316317
+    },
+    {
+      "selected_ids": [
+        "C0397",
+        "C0238",
+        "C0197",
+        "C0183",
+        "C0087",
+        "C0322"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.302456343368956,
+      "tail_probability": 0.03344581990209099
+    },
+    {
+      "selected_ids": [
+        "C0277",
+        "C0279",
+        "C0349",
+        "C0339",
+        "C0313",
+        "C0231"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.675054388392427,
+      "tail_probability": 0.031139462610568748
+    },
+    {
+      "selected_ids": [
+        "C0111",
+        "C0258",
+        "C0036",
+        "C0039",
+        "C0091",
+        "C0387"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.71283981061035,
+      "tail_probability": 0.03688935470830874
+    },
+    {
+      "selected_ids": [
+        "C0326",
+        "C0277",
+        "C0339",
+        "C0381",
+        "C0279",
+        "C0111"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.701553971554638,
+      "tail_probability": 0.03379113156418359
+    },
+    {
+      "selected_ids": [
+        "C0210",
+        "C0022",
+        "C0231",
+        "C0076",
+        "C0170",
+        "C0312"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 5.8977955160342415,
+      "tail_probability": 0.03524232368193053
+    },
+    {
+      "selected_ids": [
+        "C0147",
+        "C0202",
+        "C0183",
+        "C0112",
+        "C0053",
+        "C0005"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 2.091006727676671,
+      "tail_probability": 0.03481362832387013
+    },
+    {
+      "selected_ids": [
+        "C0381",
+        "C0039",
+        "C0022",
+        "C0097",
+        "C0322",
+        "C0349"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.106012569436718,
+      "tail_probability": 0.03624184182905888
+    },
+    {
+      "selected_ids": [
+        "C0381",
+        "C0250",
+        "C0231",
+        "C0256",
+        "C0168",
+        "C0272"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 12.014326554127212,
+      "tail_probability": 0.0342028845378201
+    },
+    {
+      "selected_ids": [
+        "C0231",
+        "C0327",
+        "C0197",
+        "C0111",
+        "C0381",
+        "C0147"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 11.703974007690624,
+      "tail_probability": 0.036603087972139355
+    },
+    {
+      "selected_ids": [
+        "C0231",
+        "C0088",
+        "C0036",
+        "C0253",
+        "C0271",
+        "C0381"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 8.78425784969304,
+      "tail_probability": 0.03360105984486581
+    },
+    {
+      "selected_ids": [
+        "C0226",
+        "C0099",
+        "C0384",
+        "C0250",
+        "C0005",
+        "C0183"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 4.949152602655098,
+      "tail_probability": 0.03290016021343074
+    },
+    {
+      "selected_ids": [
+        "C0212",
+        "C0277",
+        "C0005",
+        "C0170",
+        "C0381",
+        "C0231"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.327446065223709,
+      "tail_probability": 0.03312115854089274
+    },
+    {
+      "selected_ids": [
+        "C0384",
+        "C0087",
+        "C0028",
+        "C0399",
+        "C0313",
+        "C0212"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 3.659774561712953,
+      "tail_probability": 0.03229352872265813
+    },
+    {
+      "selected_ids": [
+        "C0338",
+        "C0068",
+        "C0163",
+        "C0147",
+        "C0222",
+        "C0381"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.186428903942954,
+      "tail_probability": 0.03336397769870682
+    },
+    {
+      "selected_ids": [
+        "C0163",
+        "C0372",
+        "C0253",
+        "C0020",
+        "C0183",
+        "C0322"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 6.136406460767816,
+      "tail_probability": 0.03357445492677655
+    },
+    {
+      "selected_ids": [
+        "C0097",
+        "C0009",
+        "C0088",
+        "C0250",
+        "C0272",
+        "C0256"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.956046232834781,
+      "tail_probability": 0.032545159624834036
+    },
+    {
+      "selected_ids": [
+        "C0111",
+        "C0277",
+        "C0053",
+        "C0005",
+        "C0022",
+        "C0399"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 6.009231596626714,
+      "tail_probability": 0.03318571362086719
+    },
+    {
+      "selected_ids": [
+        "C0253",
+        "C0238",
+        "C0020",
+        "C0279",
+        "C0258",
+        "C0091"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.715704612220982,
+      "tail_probability": 0.03385285662434372
+    },
+    {
+      "selected_ids": [
+        "C0341",
+        "C0039",
+        "C0188",
+        "C0170",
+        "C0349",
+        "C0277"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 4.181619928327671,
+      "tail_probability": 0.0333604361165423
+    },
+    {
+      "selected_ids": [
+        "C0322",
+        "C0022",
+        "C0068",
+        "C0327",
+        "C0253",
+        "C0271"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.914072269991365,
+      "tail_probability": 0.03137359441266947
+    },
+    {
+      "selected_ids": [
+        "C0076",
+        "C0111",
+        "C0147",
+        "C0009",
+        "C0384",
+        "C0087"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.604700376271097,
+      "tail_probability": 0.035971718608932286
+    },
+    {
+      "selected_ids": [
+        "C0326",
+        "C0313",
+        "C0253",
+        "C0020",
+        "C0349",
+        "C0283"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.544110924862837,
+      "tail_probability": 0.03681701907155418
+    },
+    {
+      "selected_ids": [
+        "C0327",
+        "C0339",
+        "C0111",
+        "C0053",
+        "C0197",
+        "C0326"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.884922516798362,
+      "tail_probability": 0.03596206042010633
+    },
+    {
+      "selected_ids": [
+        "C0272",
+        "C0188",
+        "C0111",
+        "C0088",
+        "C0253",
+        "C0258"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.022120808361016,
+      "tail_probability": 0.035210876418323836
+    },
+    {
+      "selected_ids": [
+        "C0147",
+        "C0022",
+        "C0231",
+        "C0250",
+        "C0076",
+        "C0182"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 11.24585527155585,
+      "tail_probability": 0.03461866744589186
+    },
+    {
+      "selected_ids": [
+        "C0318",
+        "C0271",
+        "C0372",
+        "C0139",
+        "C0068",
+        "C0222"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.782068249336106,
+      "tail_probability": 0.03556483804904704
+    },
+    {
+      "selected_ids": [
+        "C0099",
+        "C0341",
+        "C0147",
+        "C0036",
+        "C0022",
+        "C0009"
+      ],
+      "overlap_with_final": 3,
+      "expected_net_value": 7.987769779540674,
+      "tail_probability": 0.033444432817602315
+    },
+    {
+      "selected_ids": [
+        "C0022",
+        "C0349",
+        "C0222",
+        "C0005",
+        "C0068",
+        "C0338"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 5.420399065924788,
+      "tail_probability": 0.033170405370751395
+    },
+    {
+      "selected_ids": [
+        "C0381",
+        "C0258",
+        "C0091",
+        "C0339",
+        "C0283",
+        "C0372"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 12.609803781459876,
+      "tail_probability": 0.04063621780228698
+    },
+    {
+      "selected_ids": [
+        "C0053",
+        "C0182",
+        "C0313",
+        "C0271",
+        "C0231",
+        "C0397"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 12.12834333972366,
+      "tail_probability": 0.03457679582173758
+    },
+    {
+      "selected_ids": [
+        "C0108",
+        "C0238",
+        "C0250",
+        "C0388",
+        "C0053",
+        "C0028"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 1.819865218578291,
+      "tail_probability": 0.034814188187657885
+    },
+    {
+      "selected_ids": [
+        "C0387",
+        "C0397",
+        "C0111",
+        "C0256",
+        "C0271",
+        "C0250"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 12.289338465741316,
+      "tail_probability": 0.0351334577851031
+    },
+    {
+      "selected_ids": [
+        "C0384",
+        "C0326",
+        "C0238",
+        "C0076",
+        "C0210",
+        "C0277"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 4.092471214080229,
+      "tail_probability": 0.03387028472608058
+    },
+    {
+      "selected_ids": [
+        "C0372",
+        "C0339",
+        "C0088",
+        "C0279",
+        "C0111",
+        "C0277"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.997397036322553,
+      "tail_probability": 0.03333522640453705
+    },
+    {
+      "selected_ids": [
+        "C0279",
+        "C0381",
+        "C0322",
+        "C0111",
+        "C0182",
+        "C0349"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 12.89585366400795,
+      "tail_probability": 0.032966989425308485
+    },
+    {
+      "selected_ids": [
+        "C0212",
+        "C0091",
+        "C0092",
+        "C0322",
+        "C0341",
+        "C0279"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.062464731683221,
+      "tail_probability": 0.037429065249517564
+    },
+    {
+      "selected_ids": [
+        "C0322",
+        "C0091",
+        "C0170",
+        "C0256",
+        "C0349",
+        "C0205"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 11.314762405927684,
+      "tail_probability": 0.033722161757632735
+    },
+    {
+      "selected_ids": [
+        "C0252",
+        "C0059",
+        "C0222",
+        "C0182",
+        "C0231",
+        "C0205"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.957609138395613,
+      "tail_probability": 0.03332119189194022
+    },
+    {
+      "selected_ids": [
+        "C0397",
+        "C0271",
+        "C0009",
+        "C0170",
+        "C0381",
+        "C0327"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 14.6247185136491,
+      "tail_probability": 0.03359339487103195
+    },
+    {
+      "selected_ids": [
+        "C0313",
+        "C0272",
+        "C0168",
+        "C0339",
+        "C0147",
+        "C0020"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.807424856121106,
+      "tail_probability": 0.03596431724255944
+    },
+    {
+      "selected_ids": [
+        "C0318",
+        "C0099",
+        "C0088",
+        "C0272",
+        "C0111",
+        "C0226"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.406240113255707,
+      "tail_probability": 0.03278105445378771
+    },
+    {
+      "selected_ids": [
+        "C0322",
+        "C0170",
+        "C0238",
+        "C0387",
+        "C0250",
+        "C0088"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.250409344131828,
+      "tail_probability": 0.03384874456766894
+    },
+    {
+      "selected_ids": [
+        "C0231",
+        "C0007",
+        "C0256",
+        "C0339",
+        "C0397",
+        "C0250"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 13.618367111402735,
+      "tail_probability": 0.03630812510293772
+    },
+    {
+      "selected_ids": [
+        "C0147",
+        "C0007",
+        "C0076",
+        "C0322",
+        "C0099",
+        "C0088"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.230604883188297,
+      "tail_probability": 0.03367077493846836
+    },
+    {
+      "selected_ids": [
+        "C0205",
+        "C0341",
+        "C0318",
+        "C0053",
+        "C0238",
+        "C0327"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 4.9357685641407025,
+      "tail_probability": 0.03216418647229158
+    },
+    {
+      "selected_ids": [
+        "C0387",
+        "C0381",
+        "C0087",
+        "C0076",
+        "C0229",
+        "C0313"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.082135328002954,
+      "tail_probability": 0.033578447075456215
+    },
+    {
+      "selected_ids": [
+        "C0092",
+        "C0068",
+        "C0036",
+        "C0399",
+        "C0222",
+        "C0271"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 5.260469541621784,
+      "tail_probability": 0.03742841164606766
+    },
+    {
+      "selected_ids": [
+        "C0256",
+        "C0318",
+        "C0099",
+        "C0399",
+        "C0384",
+        "C0349"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.01337964809258,
+      "tail_probability": 0.03443981108694967
+    },
+    {
+      "selected_ids": [
+        "C0005",
+        "C0022",
+        "C0339",
+        "C0087",
+        "C0053",
+        "C0316"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 7.014573396170407,
+      "tail_probability": 0.03280297598086532
+    },
+    {
+      "selected_ids": [
+        "C0091",
+        "C0316",
+        "C0384",
+        "C0339",
+        "C0349",
+        "C0005"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.63890852710424,
+      "tail_probability": 0.03312790216618814
+    },
+    {
+      "selected_ids": [
+        "C0271",
+        "C0097",
+        "C0009",
+        "C0384",
+        "C0313",
+        "C0059"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.748287003539364,
+      "tail_probability": 0.035766807980170255
+    },
+    {
+      "selected_ids": [
+        "C0168",
+        "C0170",
+        "C0256",
+        "C0250",
+        "C0139",
+        "C0231"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.573560652124451,
+      "tail_probability": 0.03733708129248392
+    },
+    {
+      "selected_ids": [
+        "C0091",
+        "C0327",
+        "C0326",
+        "C0097",
+        "C0139",
+        "C0381"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.908177251850468,
+      "tail_probability": 0.031014788640942786
+    },
+    {
+      "selected_ids": [
+        "C0313",
+        "C0163",
+        "C0005",
+        "C0007",
+        "C0231",
+        "C0036"
+      ],
+      "overlap_with_final": 3,
+      "expected_net_value": 8.273699854945242,
+      "tail_probability": 0.036194959933416496
+    },
+    {
+      "selected_ids": [
+        "C0341",
+        "C0068",
+        "C0182",
+        "C0007",
+        "C0256",
+        "C0272"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.545524157037487,
+      "tail_probability": 0.0373412751281443
+    },
+    {
+      "selected_ids": [
+        "C0253",
+        "C0205",
+        "C0182",
+        "C0387",
+        "C0222",
+        "C0099"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.416254870253644,
+      "tail_probability": 0.03455380780702003
+    },
+    {
+      "selected_ids": [
+        "C0222",
+        "C0111",
+        "C0387",
+        "C0399",
+        "C0182",
+        "C0097"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.045025877132851,
+      "tail_probability": 0.034055040835104036
+    },
+    {
+      "selected_ids": [
+        "C0316",
+        "C0092",
+        "C0372",
+        "C0349",
+        "C0205",
+        "C0197"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.173621432571904,
+      "tail_probability": 0.034092030734223
+    },
+    {
+      "selected_ids": [
+        "C0326",
+        "C0139",
+        "C0099",
+        "C0339",
+        "C0076",
+        "C0111"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.173260641893489,
+      "tail_probability": 0.03308351229788155
+    },
+    {
+      "selected_ids": [
+        "C0271",
+        "C0009",
+        "C0258",
+        "C0111",
+        "C0372",
+        "C0076"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.965512050974045,
+      "tail_probability": 0.03224724353199668
+    },
+    {
+      "selected_ids": [
+        "C0283",
+        "C0139",
+        "C0397",
+        "C0036",
+        "C0279",
+        "C0111"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.142040169221417,
+      "tail_probability": 0.0370259356460192
+    },
+    {
+      "selected_ids": [
+        "C0272",
+        "C0168",
+        "C0250",
+        "C0387",
+        "C0091",
+        "C0341"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.63642349267171,
+      "tail_probability": 0.03281684843366904
+    },
+    {
+      "selected_ids": [
+        "C0087",
+        "C0381",
+        "C0252",
+        "C0322",
+        "C0168",
+        "C0111"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.96358325116012,
+      "tail_probability": 0.033008965644472615
+    },
+    {
+      "selected_ids": [
+        "C0279",
+        "C0277",
+        "C0322",
+        "C0188",
+        "C0170",
+        "C0313"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.542715994639877,
+      "tail_probability": 0.03368037149264854
+    },
+    {
+      "selected_ids": [
+        "C0091",
+        "C0372",
+        "C0339",
+        "C0028",
+        "C0252",
+        "C0059"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.769797091715503,
+      "tail_probability": 0.03471485492846255
+    },
+    {
+      "selected_ids": [
+        "C0112",
+        "C0341",
+        "C0338",
+        "C0289",
+        "C0397",
+        "C0327"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.81250003073338,
+      "tail_probability": 0.03630471669702887
+    },
+    {
+      "selected_ids": [
+        "C0170",
+        "C0256",
+        "C0205",
+        "C0271",
+        "C0313",
+        "C0022"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.86318078048196,
+      "tail_probability": 0.033614251396989
+    },
+    {
+      "selected_ids": [
+        "C0097",
+        "C0163",
+        "C0372",
+        "C0313",
+        "C0231",
+        "C0009"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.266795707236408,
+      "tail_probability": 0.03489665031446685
+    },
+    {
+      "selected_ids": [
+        "C0258",
+        "C0099",
+        "C0253",
+        "C0036",
+        "C0326",
+        "C0372"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 6.91041953948314,
+      "tail_probability": 0.035058720829033586
+    },
+    {
+      "selected_ids": [
+        "C0231",
+        "C0053",
+        "C0139",
+        "C0316",
+        "C0059",
+        "C0036"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 5.282474417144502,
+      "tail_probability": 0.03449072188674555
+    },
+    {
+      "selected_ids": [
+        "C0076",
+        "C0384",
+        "C0053",
+        "C0258",
+        "C0182",
+        "C0252"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.038846160852518,
+      "tail_probability": 0.034224570602542234
+    },
+    {
+      "selected_ids": [
+        "C0316",
+        "C0020",
+        "C0036",
+        "C0231",
+        "C0341",
+        "C0372"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 5.396593468702829,
+      "tail_probability": 0.035137832368278527
+    },
+    {
+      "selected_ids": [
+        "C0197",
+        "C0205",
+        "C0009",
+        "C0022",
+        "C0339",
+        "C0147"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 11.14540733871332,
+      "tail_probability": 0.03525873842581949
+    },
+    {
+      "selected_ids": [
+        "C0381",
+        "C0253",
+        "C0087",
+        "C0322",
+        "C0277",
+        "C0168"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.190936596322791,
+      "tail_probability": 0.0345934340333525
+    },
+    {
+      "selected_ids": [
+        "C0139",
+        "C0252",
+        "C0277",
+        "C0256",
+        "C0381",
+        "C0397"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 11.169601624266015,
+      "tail_probability": 0.03639786102528946
+    },
+    {
+      "selected_ids": [
+        "C0005",
+        "C0322",
+        "C0009",
+        "C0231",
+        "C0258",
+        "C0349"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 11.497435691103306,
+      "tail_probability": 0.0346859323942567
+    },
+    {
+      "selected_ids": [
+        "C0091",
+        "C0212",
+        "C0188",
+        "C0349",
+        "C0397",
+        "C0289"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.424705071214614,
+      "tail_probability": 0.035831911222581565
+    },
+    {
+      "selected_ids": [
+        "C0009",
+        "C0231",
+        "C0168",
+        "C0384",
+        "C0007",
+        "C0068"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 9.015026456205835,
+      "tail_probability": 0.03408232765603208
+    },
+    {
+      "selected_ids": [
+        "C0252",
+        "C0097",
+        "C0256",
+        "C0250",
+        "C0059",
+        "C0397"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.622883901179222,
+      "tail_probability": 0.03616403576496565
+    },
+    {
+      "selected_ids": [
+        "C0258",
+        "C0053",
+        "C0009",
+        "C0139",
+        "C0147",
+        "C0036"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 9.437436303190209,
+      "tail_probability": 0.0349591947179713
+    },
+    {
+      "selected_ids": [
+        "C0327",
+        "C0256",
+        "C0252",
+        "C0091",
+        "C0111",
+        "C0068"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 11.115522571639348,
+      "tail_probability": 0.03800429318161382
+    },
+    {
+      "selected_ids": [
+        "C0272",
+        "C0022",
+        "C0258",
+        "C0020",
+        "C0139",
+        "C0036"
+      ],
+      "overlap_with_final": 3,
+      "expected_net_value": 8.395707964877127,
+      "tail_probability": 0.035370544619749415
+    },
+    {
+      "selected_ids": [
+        "C0168",
+        "C0397",
+        "C0279",
+        "C0250",
+        "C0327",
+        "C0205"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 12.368152267590247,
+      "tail_probability": 0.03366507950273279
+    },
+    {
+      "selected_ids": [
+        "C0020",
+        "C0253",
+        "C0399",
+        "C0205",
+        "C0222",
+        "C0327"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 6.5127524384381825,
+      "tail_probability": 0.03328284527406423
+    },
+    {
+      "selected_ids": [
+        "C0091",
+        "C0087",
+        "C0065",
+        "C0238",
+        "C0326",
+        "C0289"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 3.4726363962852163,
+      "tail_probability": 0.03333099247097166
+    },
+    {
+      "selected_ids": [
+        "C0397",
+        "C0022",
+        "C0205",
+        "C0231",
+        "C0139",
+        "C0147"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.726302712319084,
+      "tail_probability": 0.03309343908978698
+    },
+    {
+      "selected_ids": [
+        "C0005",
+        "C0076",
+        "C0283",
+        "C0316",
+        "C0009",
+        "C0053"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 7.492221410185677,
+      "tail_probability": 0.03460136317198267
+    },
+    {
+      "selected_ids": [
+        "C0326",
+        "C0197",
+        "C0088",
+        "C0226",
+        "C0283",
+        "C0005"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 4.365884560628856,
+      "tail_probability": 0.032372195417529746
+    },
+    {
+      "selected_ids": [
+        "C0312",
+        "C0022",
+        "C0197",
+        "C0327",
+        "C0252",
+        "C0147"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 6.822019473111139,
+      "tail_probability": 0.03184418736954666
+    },
+    {
+      "selected_ids": [
+        "C0036",
+        "C0277",
+        "C0182",
+        "C0279",
+        "C0258",
+        "C0272"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.675852668919203,
+      "tail_probability": 0.035200322111037644
+    },
+    {
+      "selected_ids": [
+        "C0384",
+        "C0076",
+        "C0007",
+        "C0250",
+        "C0111",
+        "C0009"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 11.36071603130165,
+      "tail_probability": 0.033814423351226
+    },
+    {
+      "selected_ids": [
+        "C0087",
+        "C0397",
+        "C0222",
+        "C0313",
+        "C0097",
+        "C0182"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.785369725055016,
+      "tail_probability": 0.03358092934967464
+    },
+    {
+      "selected_ids": [
+        "C0053",
+        "C0250",
+        "C0092",
+        "C0387",
+        "C0183",
+        "C0322"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.299837610767705,
+      "tail_probability": 0.033011256218068746
+    },
+    {
+      "selected_ids": [
+        "C0097",
+        "C0339",
+        "C0022",
+        "C0091",
+        "C0231",
+        "C0397"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.920643923871799,
+      "tail_probability": 0.035309056871232786
+    },
+    {
+      "selected_ids": [
+        "C0053",
+        "C0279",
+        "C0091",
+        "C0327",
+        "C0022",
+        "C0088"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 8.823588545967798,
+      "tail_probability": 0.033579682914758255
+    },
+    {
+      "selected_ids": [
+        "C0182",
+        "C0036",
+        "C0349",
+        "C0341",
+        "C0076",
+        "C0277"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 8.04165501620041,
+      "tail_probability": 0.03569674503300824
+    },
+    {
+      "selected_ids": [
+        "C0087",
+        "C0170",
+        "C0253",
+        "C0326",
+        "C0339",
+        "C0272"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.592526222211168,
+      "tail_probability": 0.03389596900021978
+    },
+    {
+      "selected_ids": [
+        "C0397",
+        "C0341",
+        "C0322",
+        "C0053",
+        "C0007",
+        "C0087"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.230883770813408,
+      "tail_probability": 0.033741578747989276
+    },
+    {
+      "selected_ids": [
+        "C0349",
+        "C0338",
+        "C0250",
+        "C0277",
+        "C0327",
+        "C0183"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.91695175968969,
+      "tail_probability": 0.030790192646874708
+    },
+    {
+      "selected_ids": [
+        "C0022",
+        "C0253",
+        "C0258",
+        "C0279",
+        "C0272",
+        "C0381"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 11.157221724345018,
+      "tail_probability": 0.034914269555633426
+    },
+    {
+      "selected_ids": [
+        "C0327",
+        "C0088",
+        "C0053",
+        "C0279",
+        "C0339",
+        "C0238"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.156318804951793,
+      "tail_probability": 0.032258589345985245
+    },
+    {
+      "selected_ids": [
+        "C0053",
+        "C0097",
+        "C0076",
+        "C0250",
+        "C0205",
+        "C0339"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.775147018322944,
+      "tail_probability": 0.03409651195964047
+    },
+    {
+      "selected_ids": [
+        "C0327",
+        "C0231",
+        "C0272",
+        "C0147",
+        "C0036",
+        "C0170"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 10.302723472166601,
+      "tail_probability": 0.03404819174657455
+    },
+    {
+      "selected_ids": [
+        "C0139",
+        "C0022",
+        "C0339",
+        "C0059",
+        "C0092",
+        "C0020"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 5.610597652348874,
+      "tail_probability": 0.03347719684257274
+    },
+    {
+      "selected_ids": [
+        "C0020",
+        "C0088",
+        "C0147",
+        "C0316",
+        "C0387",
+        "C0068"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 5.643610090475884,
+      "tail_probability": 0.0344369082541986
+    },
+    {
+      "selected_ids": [
+        "C0053",
+        "C0258",
+        "C0097",
+        "C0231",
+        "C0007",
+        "C0327"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.102752910845208,
+      "tail_probability": 0.03354534175223958
+    },
+    {
+      "selected_ids": [
+        "C0387",
+        "C0007",
+        "C0253",
+        "C0271",
+        "C0036",
+        "C0005"
+      ],
+      "overlap_with_final": 3,
+      "expected_net_value": 6.789700715475392,
+      "tail_probability": 0.033921849995434954
+    },
+    {
+      "selected_ids": [
+        "C0339",
+        "C0053",
+        "C0111",
+        "C0256",
+        "C0250",
+        "C0387"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.840744868644542,
+      "tail_probability": 0.03594865717080887
+    },
+    {
+      "selected_ids": [
+        "C0349",
+        "C0338",
+        "C0226",
+        "C0327",
+        "C0339",
+        "C0318"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.173445850538563,
+      "tail_probability": 0.03356735879094171
+    },
+    {
+      "selected_ids": [
+        "C0097",
+        "C0020",
+        "C0163",
+        "C0313",
+        "C0279",
+        "C0139"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.080123622936463,
+      "tail_probability": 0.032388837584992045
+    },
+    {
+      "selected_ids": [
+        "C0258",
+        "C0197",
+        "C0036",
+        "C0139",
+        "C0283",
+        "C0005"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 7.15273067780994,
+      "tail_probability": 0.036252147784945864
+    },
+    {
+      "selected_ids": [
+        "C0387",
+        "C0205",
+        "C0059",
+        "C0168",
+        "C0381",
+        "C0313"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.617132914645673,
+      "tail_probability": 0.03291357607361481
+    },
+    {
+      "selected_ids": [
+        "C0182",
+        "C0316",
+        "C0372",
+        "C0099",
+        "C0381",
+        "C0076"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.263936988884284,
+      "tail_probability": 0.03463307455474677
+    },
+    {
+      "selected_ids": [
+        "C0229",
+        "C0068",
+        "C0197",
+        "C0327",
+        "C0312",
+        "C0339"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.797408052806496,
+      "tail_probability": 0.036105344032981906
+    },
+    {
+      "selected_ids": [
+        "C0097",
+        "C0022",
+        "C0326",
+        "C0339",
+        "C0283",
+        "C0139"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.415290951417976,
+      "tail_probability": 0.03505343575432545
+    },
+    {
+      "selected_ids": [
+        "C0272",
+        "C0022",
+        "C0222",
+        "C0327",
+        "C0399",
+        "C0020"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 7.679873199204117,
+      "tail_probability": 0.03491717561202116
+    },
+    {
+      "selected_ids": [
+        "C0349",
+        "C0111",
+        "C0313",
+        "C0277",
+        "C0279",
+        "C0327"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.096022034052876,
+      "tail_probability": 0.0313127910426464
+    },
+    {
+      "selected_ids": [
+        "C0349",
+        "C0252",
+        "C0087",
+        "C0322",
+        "C0111",
+        "C0147"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.89270437010615,
+      "tail_probability": 0.032429553541392035
+    },
+    {
+      "selected_ids": [
+        "C0163",
+        "C0210",
+        "C0277",
+        "C0372",
+        "C0099",
+        "C0076"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 5.634274496538151,
+      "tail_probability": 0.037968597416566954
+    },
+    {
+      "selected_ids": [
+        "C0139",
+        "C0279",
+        "C0271",
+        "C0397",
+        "C0022",
+        "C0091"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 11.15742914168118,
+      "tail_probability": 0.03583008166562956
+    },
+    {
+      "selected_ids": [
+        "C0277",
+        "C0097",
+        "C0327",
+        "C0250",
+        "C0339",
+        "C0028"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.32035103890147,
+      "tail_probability": 0.036257043175222485
+    },
+    {
+      "selected_ids": [
+        "C0039",
+        "C0384",
+        "C0163",
+        "C0226",
+        "C0322",
+        "C0256"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.132993142251941,
+      "tail_probability": 0.033928055258879916
+    },
+    {
+      "selected_ids": [
+        "C0208",
+        "C0341",
+        "C0349",
+        "C0202",
+        "C0093",
+        "C0265"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": -1.2399321668411654,
+      "tail_probability": 0.03519528215177361
+    },
+    {
+      "selected_ids": [
+        "C0168",
+        "C0076",
+        "C0279",
+        "C0338",
+        "C0238",
+        "C0381"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.046732186746484,
+      "tail_probability": 0.0361193848161887
+    },
+    {
+      "selected_ids": [
+        "C0036",
+        "C0250",
+        "C0147",
+        "C0097",
+        "C0170",
+        "C0168"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 9.320602608285132,
+      "tail_probability": 0.03555592264302352
+    },
+    {
+      "selected_ids": [
+        "C0252",
+        "C0222",
+        "C0277",
+        "C0036",
+        "C0088",
+        "C0205"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 6.752741730595474,
+      "tail_probability": 0.03604853318243518
+    },
+    {
+      "selected_ids": [
+        "C0272",
+        "C0022",
+        "C0387",
+        "C0341",
+        "C0005",
+        "C0339"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 7.458523467743202,
+      "tail_probability": 0.03258628739160607
+    },
+    {
+      "selected_ids": [
+        "C0238",
+        "C0384",
+        "C0036",
+        "C0009",
+        "C0210",
+        "C0387"
+      ],
+      "overlap_with_final": 2,
+      "expected_net_value": 4.9062744713069035,
+      "tail_probability": 0.03292214119593344
+    },
+    {
+      "selected_ids": [
+        "C0168",
+        "C0272",
+        "C0231",
+        "C0381",
+        "C0322",
+        "C0252"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 11.137306066233272,
+      "tail_probability": 0.03332299511517945
+    },
+    {
+      "selected_ids": [
+        "C0068",
+        "C0313",
+        "C0283",
+        "C0349",
+        "C0053",
+        "C0384"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.896051390815048,
+      "tail_probability": 0.032203357237420814
+    },
+    {
+      "selected_ids": [
+        "C0277",
+        "C0327",
+        "C0279",
+        "C0313",
+        "C0097",
+        "C0252"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 9.414797114213545,
+      "tail_probability": 0.033625418864837914
+    },
+    {
+      "selected_ids": [
+        "C0349",
+        "C0327",
+        "C0097",
+        "C0099",
+        "C0163",
+        "C0007"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.662741889758702,
+      "tail_probability": 0.03394446449767982
+    },
+    {
+      "selected_ids": [
+        "C0384",
+        "C0163",
+        "C0289",
+        "C0087",
+        "C0279",
+        "C0272"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 6.28719107286482,
+      "tail_probability": 0.033005050859340856
+    },
+    {
+      "selected_ids": [
+        "C0250",
+        "C0005",
+        "C0091",
+        "C0272",
+        "C0381",
+        "C0087"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 12.027656970550346,
+      "tail_probability": 0.03655083150580971
+    },
+    {
+      "selected_ids": [
+        "C0318",
+        "C0289",
+        "C0170",
+        "C0312",
+        "C0111",
+        "C0009"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 5.989307612242147,
+      "tail_probability": 0.034504703062040475
+    },
+    {
+      "selected_ids": [
+        "C0212",
+        "C0256",
+        "C0170",
+        "C0384",
+        "C0272",
+        "C0068"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 7.570971404468203,
+      "tail_probability": 0.03487315285110997
+    },
+    {
+      "selected_ids": [
+        "C0312",
+        "C0087",
+        "C0279",
+        "C0326",
+        "C0271",
+        "C0339"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.076673999959686,
+      "tail_probability": 0.03348962548516151
+    },
+    {
+      "selected_ids": [
+        "C0088",
+        "C0087",
+        "C0313",
+        "C0068",
+        "C0022",
+        "C0226"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.285389601892824,
+      "tail_probability": 0.0350477088492857
+    },
+    {
+      "selected_ids": [
+        "C0087",
+        "C0322",
+        "C0313",
+        "C0372",
+        "C0277",
+        "C0170"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.819612275133752,
+      "tail_probability": 0.03587002427895695
+    },
+    {
+      "selected_ids": [
+        "C0272",
+        "C0271",
+        "C0387",
+        "C0205",
+        "C0341",
+        "C0022"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 7.7593613779817865,
+      "tail_probability": 0.03255447944258019
+    },
+    {
+      "selected_ids": [
+        "C0326",
+        "C0197",
+        "C0256",
+        "C0068",
+        "C0087",
+        "C0313"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 8.52205326563579,
+      "tail_probability": 0.034352757557426755
+    },
+    {
+      "selected_ids": [
+        "C0349",
+        "C0182",
+        "C0258",
+        "C0197",
+        "C0381",
+        "C0168"
+      ],
+      "overlap_with_final": 0,
+      "expected_net_value": 10.619016090346504,
+      "tail_probability": 0.03275820515587896
+    },
+    {
+      "selected_ids": [
+        "C0068",
+        "C0059",
+        "C0205",
+        "C0005",
+        "C0384",
+        "C0341"
+      ],
+      "overlap_with_final": 1,
+      "expected_net_value": 5.470882568366796,
+      "tail_probability": 0.0342636714038299
+    }
+  ]
+}

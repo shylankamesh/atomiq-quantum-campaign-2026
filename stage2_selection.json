@@ -1,0 +1,5135 @@
+{
+  "candidate_ids": [
+    "C0005",
+    "C0007",
+    "C0009",
+    "C0012",
+    "C0020",
+    "C0022",
+    "C0025",
+    "C0028",
+    "C0036",
+    "C0039"
+  ],
+  "selected_customer_ids": [
+    "C0005",
+    "C0007",
+    "C0009",
+    "C0020",
+    "C0022",
+    "C0036"
+  ],
+  "selected_candidate_indices": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    8
+  ],
+  "selected_bitstring": "0100110111",
+  "objective_type": "expected_profit",
+  "total_budget": 25.0,
+  "total_capacity": 22.0,
+  "objective_formula": "sum(x_i * (p_i * expected_deposit_value_i - contact_cost_i))",
+  "budget_used": 9.0,
+  "capacity_used": 19.0,
+  "objective_value": 6.13751192496118,
+  "feasible": true,
+  "classical_bruteforce_optimum": 6.13751192496118,
+  "final_optimality_gap": 0.0,
+  "qaoa_best_measured_feasible": {
+    "bitstring": "0100110111",
+    "shots": 512,
+    "feasible": true,
+    "cost": 9.0,
+    "capacity": 19.0,
+    "objective": 6.13751192496118
+  },
+  "qaoa_best_measured_objective": 6.13751192496118,
+  "qaoa_measured_optimality_gap": 0.0,
+  "qaoa_found_optimum": true,
+  "most_frequent_bitstrings": [
+    {
+      "bitstring": "0100110111",
+      "shots": 512,
+      "feasible": true,
+      "cost": 9.0,
+      "capacity": 19.0,
+      "objective": 6.13751192496118
+    },
+    {
+      "bitstring": "1100010111",
+      "shots": 250,
+      "feasible": true,
+      "cost": 9.0,
+      "capacity": 17.0,
+      "objective": 4.74020313188784
+    },
+    {
+      "bitstring": "1100110101",
+      "shots": 238,
+      "feasible": true,
+      "cost": 10.0,
+      "capacity": 17.0,
+      "objective": 4.322415129001731
+    },
+    {
+      "bitstring": "0101110101",
+      "shots": 221,
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 19.0,
+      "objective": 3.021069525538401
+    },
+    {
+      "bitstring": "0100111101",
+      "shots": 218,
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 20.0,
+      "objective": 2.671742327270066
+    },
+    {
+      "bitstring": "0110110101",
+      "shots": 217,
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 20.0,
+      "objective": 3.9526087209206278
+    },
+    {
+      "bitstring": "0110110110",
+      "shots": 209,
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 20.0,
+      "objective": 4.836166321497849
+    },
+    {
+      "bitstring": "0101110110",
+      "shots": 203,
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 19.0,
+      "objective": 3.9046271261156225
+    },
+    {
+      "bitstring": "0101010111",
+      "shots": 201,
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 19.0,
+      "objective": 3.43885752842451
+    },
+    {
+      "bitstring": "0110010111",
+      "shots": 194,
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 20.0,
+      "objective": 4.370396723806737
+    }
+  ],
+  "qaoa_measurement_counts": {
+    "0000111111": 108,
+    "0001011111": 29,
+    "0001101111": 3,
+    "0001110111": 102,
+    "0001111011": 11,
+    "0001111101": 39,
+    "0001111110": 61,
+    "0010011111": 46,
+    "0010101111": 3,
+    "0010110111": 153,
+    "0010111011": 11,
+    "0010111101": 66,
+    "0010111110": 53,
+    "0011001111": 8,
+    "0011010111": 100,
+    "0011011011": 11,
+    "0011011101": 31,
+    "0011011110": 23,
+    "0011100111": 6,
+    "0011101011": 6,
+    "0011101101": 7,
+    "0011101110": 5,
+    "0011110011": 55,
+    "0011110101": 124,
+    "0011110110": 104,
+    "0011111001": 6,
+    "0011111010": 10,
+    "0011111100": 54,
+    "0100011111": 160,
+    "0100101111": 10,
+    "0100110111": 512,
+    "0100111011": 37,
+    "0100111101": 218,
+    "0100111110": 139,
+    "0101001111": 18,
+    "0101010111": 201,
+    "0101011011": 8,
+    "0101011101": 60,
+    "0101011110": 51,
+    "0101100111": 13,
+    "0101101011": 7,
+    "0101101101": 14,
+    "0101101110": 2,
+    "0101110011": 105,
+    "0101110101": 221,
+    "0101110110": 203,
+    "0101111001": 8,
+    "0101111010": 27,
+    "0101111100": 82,
+    "0110001111": 19,
+    "0110010111": 194,
+    "0110011011": 19,
+    "0110011101": 67,
+    "0110011110": 71,
+    "0110100111": 21,
+    "0110101011": 3,
+    "0110101101": 8,
+    "0110101110": 4,
+    "0110110011": 96,
+    "0110110101": 217,
+    "0110110110": 209,
+    "0110111001": 8,
+    "0110111010": 30,
+    "0110111100": 67,
+    "0111000111": 61,
+    "0111001011": 8,
+    "0111001101": 15,
+    "0111001110": 9,
+    "0111010011": 48,
+    "0111010101": 112,
+    "0111010110": 101,
+    "0111011001": 3,
+    "0111011010": 13,
+    "0111011100": 28,
+    "0111100011": 8,
+    "0111100101": 15,
+    "0111100110": 12,
+    "0111101001": 4,
+    "0111101010": 5,
+    "0111101100": 7,
+    "0111110001": 70,
+    "0111110010": 64,
+    "0111110100": 117,
+    "0111111000": 6,
+    "1000011111": 22,
+    "1000101111": 1,
+    "1000110111": 94,
+    "1000111011": 12,
+    "1000111101": 52,
+    "1000111110": 51,
+    "1001001111": 2,
+    "1001010111": 41,
+    "1001011011": 2,
+    "1001011101": 15,
+    "1001011110": 16,
+    "1001100111": 9,
+    "1001101101": 2,
+    "1001101110": 1,
+    "1001110011": 31,
+    "1001110101": 47,
+    "1001110110": 47,
+    "1001111001": 1,
+    "1001111010": 6,
+    "1001111100": 17,
+    "1010001111": 4,
+    "1010010111": 45,
+    "1010011011": 2,
+    "1010011101": 15,
+    "1010011110": 12,
+    "1010100111": 5,
+    "1010101011": 1,
+    "1010101101": 1,
+    "1010101110": 1,
+    "1010110011": 19,
+    "1010110101": 40,
+    "1010110110": 52,
+    "1010111001": 1,
+    "1010111010": 8,
+    "1010111100": 11,
+    "1011000111": 13,
+    "1011001011": 4,
+    "1011001101": 2,
+    "1011001110": 7,
+    "1011010011": 15,
+    "1011010101": 29,
+    "1011010110": 29,
+    "1011011001": 3,
+    "1011011010": 1,
+    "1011011100": 9,
+    "1011100011": 1,
+    "1011100101": 3,
+    "1011100110": 3,
+    "1011101010": 2,
+    "1011110001": 15,
+    "1011110010": 30,
+    "1011110100": 23,
+    "1100001111": 20,
+    "1100010111": 250,
+    "1100011011": 16,
+    "1100011101": 88,
+    "1100011110": 65,
+    "1100100111": 27,
+    "1100101011": 7,
+    "1100101101": 10,
+    "1100101110": 1,
+    "1100110011": 136,
+    "1100110101": 238,
+    "1100110110": 178,
+    "1100111001": 7,
+    "1100111010": 30,
+    "1100111100": 35,
+    "1101000111": 42,
+    "1101001011": 3,
+    "1101001101": 21,
+    "1101001110": 3,
+    "1101010011": 49,
+    "1101010101": 88,
+    "1101010110": 69,
+    "1101011001": 3,
+    "1101011010": 8,
+    "1101011100": 6,
+    "1101100011": 3,
+    "1101100101": 12,
+    "1101100110": 5,
+    "1101101010": 3,
+    "1101101100": 7,
+    "1101110001": 36,
+    "1101110010": 67,
+    "1101110100": 61,
+    "1101111000": 3,
+    "1110000111": 38,
+    "1110001011": 2,
+    "1110001101": 11,
+    "1110001110": 3,
+    "1110010011": 55,
+    "1110010101": 90,
+    "1110010110": 68,
+    "1110011001": 1,
+    "1110011010": 7,
+    "1110011100": 26,
+    "1110100011": 5,
+    "1110100101": 16,
+    "1110100110": 6,
+    "1110101010": 2,
+    "1110101100": 2,
+    "1110110001": 37,
+    "1110110010": 46,
+    "1110110100": 43,
+    "1110111000": 2,
+    "1111000011": 19,
+    "1111000101": 29,
+    "1111000110": 23,
+    "1111001010": 4,
+    "1111001100": 5,
+    "1111010001": 15,
+    "1111010010": 31,
+    "1111010100": 34,
+    "1111011000": 3,
+    "1111100001": 1,
+    "1111100010": 6,
+    "1111100100": 3,
+    "1111101000": 1,
+    "1111110000": 16
+  },
+  "qaoa_angles": [
+    2.424046731623957,
+    1.9748379914282204,
+    2.9059560704619694,
+    0.3300364259181856
+  ],
+  "qaoa_optimized_penalized_energy_or_cvar": -2.249035936938607,
+  "qaoa_expected_penalized_energy": -2.249035936938607,
+  "qaoa_mixer": "xy",
+  "qaoa_cvar_lower_tail_alpha": 1.0,
+  "qaoa_theoretical_distribution_metrics": {
+    "cardinality_probability": 1.0,
+    "feasible_probability": 1.0,
+    "optimum_probability": 0.0630739362868108,
+    "feasible_state_count": 210
+  },
+  "qaoa_mixer_comparison": {
+    "xy": {
+      "energy": -2.249035936938607,
+      "cardinality_probability": 1.0,
+      "feasible_probability": 1.0,
+      "optimum_probability": 0.0630739362868108,
+      "feasible_state_count": 210
+    },
+    "x": {
+      "energy": 20.12249304116944,
+      "cardinality_probability": 0.3362201388157629,
+      "feasible_probability": 0.3362201388157629,
+      "optimum_probability": 0.0020887573976677135,
+      "feasible_state_count": 210
+    },
+    "caveat": "Reference statevector, same optimizer budget; not hardware speedup or guaranteed XY superiority"
+  },
+  "qaoa_objective_evaluations": 260,
+  "measured_feasible_fraction": 1.0,
+  "measured_cardinality_six_fraction": 1.0,
+  "measured_exact_optimum_fraction": 0.0625,
+  "measured_feasible_standard_error": 0.0,
+  "shots": 8192,
+  "quantum_engine": "qiskit",
+  "circuit": {
+    "logical_qubits": 10,
+    "qaoa_layers": 2,
+    "cvar_lower_tail_alpha": 1.0,
+    "cost_phase_gate": "exact pseudo-Boolean DiagonalGate",
+    "mixer": "xy",
+    "initial_state": "weight-6 uniform Dicke-like state",
+    "gate_depth_caveat": "Generic DiagonalGate and arbitrary Dicke-state initialization may be expensive",
+    "classical_outer_optimizer": "scipy.differential_evolution",
+    "backend": "AerSimulator",
+    "transpiled_depth": 44,
+    "logical_depth": 44,
+    "transpiled_gate_counts": {
+      "rxx": 20,
+      "ryy": 20,
+      "measure": 10,
+      "diagonal": 2,
+      "initialize": 1
+    },
+    "physical_qubits": 10,
+    "basis_gates": [
+      "u",
+      "cx"
+    ],
+    "basis_transpiled_depth": 6144,
+    "basis_gate_counts": {
+      "u": 3200,
+      "cx": 3137,
+      "reset": 10,
+      "measure": 10
+    },
+    "one_qubit_gate_count": 3200,
+    "two_qubit_gate_count": 3137,
+    "swap_count": 0,
+    "logical_to_simulator_qubits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "physical_layout_note": "Unconstrained simulator topology; no hardware device placement"
+  },
+  "final_selection_policy": "Exact classical certification/refinement, with QAOA measured candidate comparison",
+  "oracle_policy": "Exact diagonal pseudo-Boolean objective with squared inequality overage; NOT 10-bit QUBO",
+  "oracle_penalty_policy": "Coefficient=(sum(abs(reward))/reward_unit+1)/minimum_positive_normalized_violation across all 1024 states",
+  "oracle_ground_state_mask": 311,
+  "enumeration": [
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 19.0,
+      "objective": 3.3703967238067363
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": 0.6717423272700667
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": 1.603281522652293
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 20.0,
+      "objective": 3.089530330156175
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 17.0,
+      "objective": 1.9730879307333968
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": 1.1375119249611796
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": 2.069051120343406
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 19.0,
+      "objective": 3.5552999278472877
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 16.0,
+      "objective": 2.43885752842451
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 19.0,
+      "objective": -0.6296032761932637
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 19.0,
+      "objective": 0.8566455313106183
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 16.0,
+      "objective": -0.25979686811215985
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 20.0,
+      "objective": 1.7881847266928446
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 17.0,
+      "objective": 0.6717423272700664
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 17.0,
+      "objective": 2.1579911347739484
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 18.0,
+      "objective": 3.719723922075071
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 19.0,
+      "objective": 4.651263117457297
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 9.0,
+      "capacity": 19.0,
+      "objective": 6.13751192496118
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 10.0,
+      "capacity": 16.0,
+      "objective": 5.021069525538401
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": 1.9526087209206282
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 19.0,
+      "objective": 3.43885752842451
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 16.0,
+      "objective": 2.3224151290017323
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 20.0,
+      "objective": 4.370396723806737
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 17.0,
+      "objective": 3.253954324383958
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 9.0,
+      "capacity": 17.0,
+      "objective": 4.74020313188784
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": 2.4183783186117407
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 18.0,
+      "objective": 3.9046271261156225
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 15.0,
+      "objective": 2.788184726692845
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 19.0,
+      "objective": 4.836166321497849
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 16.0,
+      "objective": 3.7197239220750706
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 9.0,
+      "capacity": 16.0,
+      "objective": 5.205972729578953
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 19.0,
+      "objective": 2.1375119249611796
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 16.0,
+      "objective": 1.0210695255384017
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 16.0,
+      "objective": 2.5073183330422832
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0009",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 17.0,
+      "objective": 3.43885752842451
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 20.0,
+      "objective": -0.7940272704210471
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 21.0,
+      "objective": 0.13751192496117914
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 21.0,
+      "objective": 1.6237607324650611
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 18.0,
+      "objective": 0.507318333042283
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 21.0,
+      "objective": -2.5611424715754905
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 21.0,
+      "objective": -1.0748936640716085
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 18.0,
+      "objective": -2.1913360634943864
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 22.0,
+      "objective": -0.14335446868938218
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 19.0,
+      "objective": -1.2597968681121603
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        4,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 19.0,
+      "objective": 0.2264519393917217
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 20.0,
+      "objective": -2.0953728738843775
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": -0.6091240663804955
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 17.0,
+      "objective": -1.7255664658032737
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 21.0,
+      "objective": 0.32241512900173075
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 18.0,
+      "objective": -0.7940272704210474
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 18.0,
+      "objective": 0.6922215370828346
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 21.0,
+      "objective": -2.376239267534939
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 18.0,
+      "objective": -3.4926816669577168
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": -2.006432859453835
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        3,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0012",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": -1.0748936640716087
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 20.0,
+      "objective": 0.4868391232295144
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 20.0,
+      "objective": 1.9730879307333964
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 17.0,
+      "objective": 0.8566455313106183
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 21.0,
+      "objective": 2.9046271261156225
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 18.0,
+      "objective": 1.7881847266928446
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 10.0,
+      "capacity": 18.0,
+      "objective": 3.274433534196726
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 21.0,
+      "objective": 0.20597272957895307
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 18.0,
+      "objective": -0.910469669843825
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 18.0,
+      "objective": 0.575779137660057
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        4,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0020",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 19.0,
+      "objective": 1.5073183330422832
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": 0.671742327270066
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 17.0,
+      "objective": -0.4447000721527121
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 17.0,
+      "objective": 1.0415487353511699
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 18.0,
+      "objective": 1.973087930733396
+    },
+    {
+      "candidate_indices": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0007",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": -0.7255664658032734
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 19.0,
+      "objective": 0.2539543243839577
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 20.0,
+      "objective": 1.185493519766184
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 20.0,
+      "objective": 2.671742327270066
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 17.0,
+      "objective": 1.5552999278472879
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 20.0,
+      "objective": -1.5131608767704856
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": -0.02691206926660361
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 17.0,
+      "objective": -1.1433544686893817
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 21.0,
+      "objective": 0.9046271261156227
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 18.0,
+      "objective": -0.21181527330715544
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 18.0,
+      "objective": 1.2744335341967266
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 19.0,
+      "objective": -1.0473912790793727
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": 0.4388575284245093
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 16.0,
+      "objective": -0.6775848709982688
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": 1.3703967238067356
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 17.0,
+      "objective": 0.2539543243839575
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 17.0,
+      "objective": 1.7402031318878397
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 20.0,
+      "objective": -1.328257672729934
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 17.0,
+      "objective": -2.4447000721527123
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 17.0,
+      "objective": -0.9584512646488301
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0012",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": -0.026912069266603833
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 19.0,
+      "objective": 1.5348207180345192
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 19.0,
+      "objective": 3.021069525538401
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 16.0,
+      "objective": 1.9046271261156231
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 20.0,
+      "objective": 3.9526087209206278
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 17.0,
+      "objective": 2.836166321497849
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 10.0,
+      "capacity": 17.0,
+      "objective": 4.322415129001731
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": 1.253954324383958
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 17.0,
+      "objective": 0.1375119249611798
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 17.0,
+      "objective": 1.623760732465062
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        4,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0020",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 18.0,
+      "objective": 2.5552999278472877
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": 1.7197239220750709
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 16.0,
+      "objective": 0.6032815226522927
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 16.0,
+      "objective": 2.0895303301561743
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 17.0,
+      "objective": 3.021069525538401
+    },
+    {
+      "candidate_indices": [
+        0,
+        2,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0009",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 17.0,
+      "objective": 0.3224151290017314
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 18.0,
+      "capacity": 21.0,
+      "objective": -2.978930474461599
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 21.0,
+      "objective": -1.492681666957717
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 18.0,
+      "objective": -2.6091240663804953
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 22.0,
+      "objective": -0.5611424715754907
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 19.0,
+      "objective": -1.6775848709982688
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 19.0,
+      "objective": -0.1913360634943868
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 22.0,
+      "objective": -3.2597968681121605
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 18.0,
+      "capacity": 19.0,
+      "objective": -4.376239267534938
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 19.0,
+      "objective": -2.889990460031057
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0020",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 20.0,
+      "objective": -1.9584512646488301
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 21.0,
+      "objective": -2.794027270421047
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 18.0,
+      "capacity": 18.0,
+      "objective": -3.9104696698438257
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 18.0,
+      "objective": -2.4242208623399435
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 19.0,
+      "objective": -1.4926816669577172
+    },
+    {
+      "candidate_indices": [
+        0,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0012",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 19.0,
+      "objective": -4.191336063494386
+    },
+    {
+      "candidate_indices": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 21.0,
+      "objective": -0.21181527330715544
+    },
+    {
+      "candidate_indices": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 18.0,
+      "objective": -1.3282576727299336
+    },
+    {
+      "candidate_indices": [
+        0,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 18.0,
+      "objective": 0.15799113477394844
+    },
+    {
+      "candidate_indices": [
+        0,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 19.0,
+      "objective": 1.0895303301561747
+    },
+    {
+      "candidate_indices": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 19.0,
+      "objective": -1.6091240663804949
+    },
+    {
+      "candidate_indices": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0005",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 18.0,
+      "objective": -1.143354468689382
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": 1.1375119249611791
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": 2.0690511203434054
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 20.0,
+      "objective": 3.5552999278472877
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 17.0,
+      "objective": 2.438857528424509
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 20.0,
+      "objective": -0.6296032761932642
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 20.0,
+      "objective": 0.8566455313106178
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 17.0,
+      "objective": -0.2597968681121603
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 21.0,
+      "objective": 1.7881847266928441
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": 0.671742327270066
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 18.0,
+      "objective": 2.1579911347739476
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 19.0,
+      "objective": -0.16383367850215125
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 19.0,
+      "objective": 1.3224151290017307
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 16.0,
+      "objective": 0.20597272957895263
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 20.0,
+      "objective": 2.2539543243839573
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 17.0,
+      "objective": 1.137511924961179
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 17.0,
+      "objective": 2.623760732465061
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 20.0,
+      "objective": -0.44470007215271257
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 17.0,
+      "objective": -1.5611424715754907
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 17.0,
+      "objective": -0.07489366407160869
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0012",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 18.0,
+      "objective": 0.8566455313106176
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": 2.4183783186117407
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 19.0,
+      "objective": 3.9046271261156225
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 16.0,
+      "objective": 2.788184726692845
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 20.0,
+      "objective": 4.836166321497849
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 17.0,
+      "objective": 3.7197239220750706
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 9.0,
+      "capacity": 17.0,
+      "objective": 5.205972729578953
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 20.0,
+      "objective": 2.1375119249611796
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 17.0,
+      "objective": 1.0210695255384017
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 17.0,
+      "objective": 2.5073183330422832
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0020",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 18.0,
+      "objective": 3.43885752842451
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 19.0,
+      "objective": 2.603281522652292
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 16.0,
+      "objective": 1.4868391232295142
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 16.0,
+      "objective": 2.9730879307333957
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 11.0,
+      "capacity": 17.0,
+      "objective": 3.9046271261156225
+    },
+    {
+      "candidate_indices": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0009",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 13.0,
+      "capacity": 17.0,
+      "objective": 1.2059727295789529
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 21.0,
+      "objective": -2.0953728738843775
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 21.0,
+      "objective": -0.6091240663804955
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 18.0,
+      "objective": -1.7255664658032737
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 22.0,
+      "objective": 0.32241512900173075
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 19.0,
+      "objective": -0.7940272704210474
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 19.0,
+      "objective": 0.6922215370828346
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 22.0,
+      "objective": -2.376239267534939
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 19.0,
+      "objective": -3.4926816669577168
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": -2.006432859453835
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0020",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": -1.0748936640716087
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 21.0,
+      "objective": -1.910469669843826
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 18.0,
+      "objective": -3.0269120692666043
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": -1.540663261762722
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": -0.6091240663804958
+    },
+    {
+      "candidate_indices": [
+        1,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0012",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 19.0,
+      "objective": -3.307778462917166
+    },
+    {
+      "candidate_indices": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 21.0,
+      "objective": 0.671742327270066
+    },
+    {
+      "candidate_indices": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 18.0,
+      "objective": -0.4447000721527121
+    },
+    {
+      "candidate_indices": [
+        1,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 18.0,
+      "objective": 1.0415487353511699
+    },
+    {
+      "candidate_indices": [
+        1,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 19.0,
+      "objective": 1.973087930733396
+    },
+    {
+      "candidate_indices": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": -0.7255664658032734
+    },
+    {
+      "candidate_indices": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0007",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": -0.2597968681121605
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 20.0,
+      "objective": -1.0473912790793727
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": 0.4388575284245093
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 17.0,
+      "objective": -0.6775848709982688
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 21.0,
+      "objective": 1.3703967238067356
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 18.0,
+      "objective": 0.2539543243839575
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 18.0,
+      "objective": 1.7402031318878397
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 21.0,
+      "objective": -1.328257672729934
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 18.0,
+      "objective": -2.4447000721527123
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": -0.9584512646488301
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0020",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 19.0,
+      "objective": -0.026912069266603833
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 20.0,
+      "objective": -0.8624880750388211
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 17.0,
+      "objective": -1.9789304744615992
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 17.0,
+      "objective": -0.4926816669577172
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": 0.4388575284245091
+    },
+    {
+      "candidate_indices": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0012",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 16.0,
+      "capacity": 18.0,
+      "objective": -2.2597968681121605
+    },
+    {
+      "candidate_indices": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 20.0,
+      "objective": 1.7197239220750709
+    },
+    {
+      "candidate_indices": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 17.0,
+      "objective": 0.6032815226522927
+    },
+    {
+      "candidate_indices": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 17.0,
+      "objective": 2.0895303301561743
+    },
+    {
+      "candidate_indices": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 12.0,
+      "capacity": 18.0,
+      "objective": 3.021069525538401
+    },
+    {
+      "candidate_indices": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 18.0,
+      "objective": 0.3224151290017314
+    },
+    {
+      "candidate_indices": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0009",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 14.0,
+      "capacity": 17.0,
+      "objective": 0.7881847266928443
+    },
+    {
+      "candidate_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "customer_ids": [
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 22.0,
+      "objective": -2.794027270421047
+    },
+    {
+      "candidate_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "customer_ids": [
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 18.0,
+      "capacity": 19.0,
+      "objective": -3.9104696698438257
+    },
+    {
+      "candidate_indices": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 19.0,
+      "objective": -2.4242208623399435
+    },
+    {
+      "candidate_indices": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0012",
+        "C0020",
+        "C0022",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 20.0,
+      "objective": -1.4926816669577172
+    },
+    {
+      "candidate_indices": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0012",
+        "C0020",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 20.0,
+      "objective": -4.191336063494386
+    },
+    {
+      "candidate_indices": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0012",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 17.0,
+      "capacity": 19.0,
+      "objective": -3.725566465803274
+    },
+    {
+      "candidate_indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "customer_ids": [
+        "C0020",
+        "C0022",
+        "C0025",
+        "C0028",
+        "C0036",
+        "C0039"
+      ],
+      "feasible": true,
+      "cost": 15.0,
+      "capacity": 19.0,
+      "objective": -1.143354468689382
+    }
+  ],
+  "inputs": [
+    {
+      "customer_id": "C0005",
+      "p": 0.1164423994227783,
+      "cost": 2.0,
+      "capacity": 3.0,
+      "reward": 0.4452903878783445,
+      "expected_deposit_value": 21.0
+    },
+    {
+      "customer_id": "C0007",
+      "p": 0.1164423994227783,
+      "cost": 1.0,
+      "capacity": 3.0,
+      "reward": 1.328847988455566,
+      "expected_deposit_value": 20.0
+    },
+    {
+      "customer_id": "C0009",
+      "p": 0.1164423994227783,
+      "cost": 1.0,
+      "capacity": 2.0,
+      "reward": 2.376829583260571,
+      "expected_deposit_value": 29.0
+    },
+    {
+      "customer_id": "C0012",
+      "p": 0.1164423994227783,
+      "cost": 4.0,
+      "capacity": 4.0,
+      "reward": -2.1369216092355474,
+      "expected_deposit_value": 16.0
+    },
+    {
+      "customer_id": "C0020",
+      "p": 0.1164423994227783,
+      "cost": 2.0,
+      "capacity": 4.0,
+      "reward": 0.4452903878783445,
+      "expected_deposit_value": 21.0
+    },
+    {
+      "customer_id": "C0022",
+      "p": 0.1164423994227783,
+      "cost": 2.0,
+      "capacity": 3.0,
+      "reward": 0.9110599855694574,
+      "expected_deposit_value": 25.0
+    },
+    {
+      "customer_id": "C0025",
+      "p": 0.1164423994227783,
+      "cost": 4.0,
+      "capacity": 3.0,
+      "reward": -1.7875944109672122,
+      "expected_deposit_value": 19.0
+    },
+    {
+      "customer_id": "C0028",
+      "p": 0.1164423994227783,
+      "cost": 4.0,
+      "capacity": 4.0,
+      "reward": -0.8560552155849859,
+      "expected_deposit_value": 27.0
+    },
+    {
+      "customer_id": "C0036",
+      "p": 0.1164423994227783,
+      "cost": 1.0,
+      "capacity": 4.0,
+      "reward": 0.6301935919188961,
+      "expected_deposit_value": 14.0
+    },
+    {
+      "customer_id": "C0039",
+      "p": 0.1164423994227783,
+      "cost": 2.0,
+      "capacity": 1.0,
+      "reward": -0.486248807503882,
+      "expected_deposit_value": 13.0
+    }
+  ]
+}
