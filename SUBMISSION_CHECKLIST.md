@@ -7,6 +7,6 @@
 - [x] Exact classical comparisons, noise/mitigation and sensitivity.
 - [x] 44 tests passed with no skips; independent verifier PASS.
 - [x] Root result files, source, exact dependencies, seeds, report.
-- [ ] Confirm public repository and presentation links after upload.
+- [x] Public repository and presentation uploaded; see PUBLISH_STATUS.md.
 - [ ] Confirm prior registration and registered team name.
 - [ ] Paste final results/member details and submit Devpost entry before deadline.

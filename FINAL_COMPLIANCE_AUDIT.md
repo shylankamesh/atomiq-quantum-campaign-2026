@@ -31,8 +31,8 @@ Audit date: 11 November 2026. Authorities: four-page official problem statement,
 | Root-level results | three mandatory root files | verify_submission.py | PASS official-data mode | PASS |
 | Technical report/business interpretation | README.md, FINAL_EXPERIMENT_REPORT.md | factual cross-check against JSON | Modest classifier quality, ties and 2.4% modeled success disclosed | PASS |
 | License/reference credits | LICENSE, README | source inspection | MIT own source; no copied GPL code; data not relicensed | PASS |
-| Public source repository | GitHub URL in README | remote commit/file verification | Publication tracked in PUBLISH_STATUS.md | Pending final upload verification |
-| Presentation | slides/Atomiq_Official_Pitch.pptx/pdf | 12 rendered slides visually inspected; package finalizer | Editable PPTX and view-only PDF prepared | PASS local; public link pending upload |
+| Public source repository | GitHub URL in README | remote commit/file verification | Published to public main branch; remote verification in PUBLISH_STATUS.md | PASS |
+| Presentation | slides/Atomiq_Official_Pitch.pptx/pdf | 12 rendered slides visually inspected; package finalizer | Editable PPTX and view-only PDF prepared | PASS; public PDF hosted in repository |
 | Team fields | DEVPOST_SUBMISSION.md; separate local private details | user-provided names/emails/handles | Three members provided; exact registered team label needs confirmation | ACTION: team confirm label |
 | Prior registration/eligibility | team records | user check required | Cannot establish prior Google Form registration from project | BLOCKED on team confirmation |
 | Submit via Devpost by 10 PM IST | Devpost account | final submission receipt | No submission receipt obtained | BLOCKED on final team submission |

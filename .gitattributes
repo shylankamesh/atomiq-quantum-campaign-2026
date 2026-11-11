@@ -1,0 +1,6 @@
+# Preserve the exact result bytes used by validation_manifest.json on every OS.
+*.csv -text
+*.json -text
+*.png -text
+*.pptx -text
+*.pdf -text
